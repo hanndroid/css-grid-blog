@@ -1,0 +1,44 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  font-size: 550%;
+  font-family: "Zilla Slab", serif;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+  margin-bottom: 2rem;
+  font-family: "Zilla Slab", serif;
+}
+
+p {
+  font-family: "Zilla Slab", serif;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+}
+
+.blog-preview {
+  margin: 0.5rem;
+  background: rgb(200, 169, 205);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+a.blog-preview {
+  text-decoration: none;
+}
+
+a.blog-preview:hover {
+  text-decoration: underline;
+  background: rgb(163, 148, 194);
+}
