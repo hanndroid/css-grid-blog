@@ -59,19 +59,21 @@ p {
 }
 
 main {
-  display: grid;
-  grid-template-rows: 300px 300px 300px;
-  grid-template-columns: 300px 300px 300px;
   justify-content: center;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .blog-preview {
-  margin: 0.5rem;
-  background: rgb(200, 169, 205);
   display: flex;
-  align-items: center;
   justify-content: center;
-  color: rgb(255, 255, 255);
+  align-items: center;
+  background-color: rgb(200, 169, 205);
+  color: white;
+  height: 15rem;
+  width: 15rem;
 }
 
 a.blog-preview {
@@ -81,4 +83,22 @@ a.blog-preview {
 a.blog-preview:hover {
   text-decoration: underline;
   background: rgb(163, 148, 194);
+}
+
+@media (min-width: 320px) {
+  main {
+    grid-template-columns: repeat(1, 0fr);
+  }
+}
+
+@media (min-width: 600px) {
+  main {
+    grid-template-columns: repeat(2, 0fr);
+  }
+}
+
+@media (min-width: 901px) {
+  main {
+    grid-template-columns: repeat(3, 0fr);
+  }
 }
