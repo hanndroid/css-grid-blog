@@ -1,3 +1,7 @@
+.topnav {
+  grid-column: 1/4;
+}
+
 .topnav,
 footer {
   background-color: rgb(132, 189, 169);
@@ -5,7 +9,6 @@ footer {
   font-family: "Zilla Slab", serif;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a,
 footer {
   float: left;
@@ -31,6 +34,7 @@ button {
   text-align: center;
   transition: all 0.2s;
 }
+
 button:hover {
   border-color: rgb(244, 238, 68);
 }
