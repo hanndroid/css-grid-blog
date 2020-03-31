@@ -8,7 +8,6 @@ footer {
 /* Style the links inside the navigation bar */
 .topnav a,
 footer {
-  max-width: max-content;
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -17,16 +16,41 @@ footer {
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
+button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid rgb(196, 171, 230);
+  background: pink;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+button:hover {
+  border-color: rgb(244, 238, 68);
+}
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: rgb(83, 116, 104);
   color: white;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  min-width: 100%;
+  margin-top: 5rem;
+  justify-content: center;
 }
 
 .second-page-container {
