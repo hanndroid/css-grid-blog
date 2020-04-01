@@ -32,55 +32,55 @@ a.blog-preview:hover {
 .blog-preview-one,
 .blog-preview-one:hover {
   background-size: contain;
-  background-image: url("/media/cat.png");
+  background-image: url("../media/cat.png");
 }
 
 .blog-preview-two,
 .blog-preview-two:hover {
-  background-image: url("/media/shiba.jpeg");
+  background-image: url("../media/shiba.jpeg");
   background-size: 85%;
 }
 
 .blog-preview-three,
 .blog-preview-three:hover {
-  background-image: url("/media/croc.png");
+  background-image: url("../media/croc.png");
   background-size: 85%;
 }
 
 .blog-preview-four,
 .blog-preview-four:hover {
-  background-image: url("/media/sushi.png");
+  background-image: url("../media/sushi.png");
   background-size: 90%;
 }
 
 .blog-preview-five,
 .blog-preview-five:hover {
-  background-image: url("/media/hamster.png");
+  background-image: url("../media/hamster.png");
   background-size: 80%;
   background-position: bottom;
 }
 
 .blog-preview-six,
 .blog-preview-six:hover {
-  background-image: url("/media/pusheen.png");
+  background-image: url("../media/pusheen.png");
   background-size: 85%;
 }
 
 .blog-preview-seven,
 .blog-preview-seven:hover {
-  background-image: url("/media/koala.png");
+  background-image: url("../media/koala.png");
   background-size: 95%;
 }
 
 .blog-preview-eight,
 .blog-preview-eight:hover {
-  background-image: url("/media/earth.svg");
+  background-image: url("../media/earth.svg");
   background-size: 95%;
 }
 
 .blog-preview-nine,
 .blog-preview-nine:hover {
-  background-image: url("/media/unicorn.png");
+  background-image: url("../media/unicorn.png");
   background-size: 80%;
   background-position: center !important;
 }
