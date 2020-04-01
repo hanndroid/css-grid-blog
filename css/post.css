@@ -1,5 +1,9 @@
 @import "variables.css";
 
+article {
+  margin: 2rem 0;
+}
+
 .post-container {
   display: grid;
   grid-template-columns:
