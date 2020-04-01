@@ -1,0 +1,86 @@
+main {
+  padding-top: 3rem;
+  justify-content: center;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  font-family: "Zilla Slab", serif;
+  font-size: 70%;
+}
+
+a.blog-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(200, 169, 205);
+  color: white;
+  height: 15rem;
+  width: 15rem;
+  text-decoration: none;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+a.blog-preview:hover {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+  background-color: rgb(163, 148, 194);
+}
+
+.blog-preview-one,
+.blog-preview-one:hover {
+  background-size: contain;
+  background-image: url("/media/cat.png");
+}
+
+.blog-preview-two,
+.blog-preview-two:hover {
+  background-image: url("/media/shiba.jpeg");
+  background-size: 85%;
+}
+
+.blog-preview-three,
+.blog-preview-three:hover {
+  background-image: url("/media/croc.png");
+  background-size: 85%;
+}
+
+.blog-preview-four,
+.blog-preview-four:hover {
+  background-image: url("/media/sushi.png");
+  background-size: 90%;
+}
+
+.blog-preview-five,
+.blog-preview-five:hover {
+  background-image: url("/media/hamster.png");
+  background-size: 80%;
+  background-position: bottom;
+}
+
+.blog-preview-six,
+.blog-preview-six:hover {
+  background-image: url("/media/pusheen.png");
+  background-size: 85%;
+}
+
+.blog-preview-seven,
+.blog-preview-seven:hover {
+  background-image: url("/media/koala.png");
+  background-size: 95%;
+}
+
+.blog-preview-eight,
+.blog-preview-eight:hover {
+  background-image: url("/media/earth.svg");
+  background-size: 95%;
+}
+
+.blog-preview-nine,
+.blog-preview-nine:hover {
+  background-image: url("/media/unicorn.png");
+  background-size: 80%;
+  background-position: center !important;
+}

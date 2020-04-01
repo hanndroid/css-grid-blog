@@ -1,0 +1,17 @@
+@media (min-width: 320px) {
+  main {
+    grid-template-columns: repeat(1, 0fr);
+  }
+}
+
+@media (min-width: 600px) {
+  main {
+    grid-template-columns: repeat(2, 0fr);
+  }
+}
+
+@media (min-width: 901px) {
+  main {
+    grid-template-columns: repeat(3, 0fr);
+  }
+}

@@ -1,0 +1,102 @@
+@import "variables.css";
+
+.post-container {
+  display: grid;
+  grid-template-columns:
+    minmax(1.2rem, 1fr)
+    minmax(auto, 80ch)
+    minmax(1.2rem, 1fr);
+}
+
+.post-title {
+  grid-column: 1 / 4;
+  width: 100%;
+  max-width: 100ch;
+  justify-self: center;
+}
+
+.post-author {
+  grid-column: 1 / 4;
+  width: 100%;
+  max-width: 100ch;
+  justify-self: center;
+  font-size: 160%;
+}
+
+.author-image {
+  grid-column: 1 / 4;
+  width: 10%;
+  max-width: 100ch;
+  justify-self: center;
+}
+
+.post-author-description {
+  grid-column: 1 / 4;
+  width: 50%;
+  max-width: 50ch;
+  justify-self: center;
+  font-size: 60%;
+  font-style: italic;
+}
+
+.post-content {
+  grid-column: 2;
+}
+
+.post-social-media {
+  grid-column: 2 / 4;
+  justify-self: left;
+  font-size: 60%;
+  font-style: italic;
+}
+
+.social-media-btns {
+  grid-column: 2 / 4;
+  display: inline-block;
+}
+
+.button-insta {
+  background: url("../media/insta-logo.png");
+  background-size: cover;
+  width: 2rem;
+  height: 2rem;
+  grid-column: 2;
+  padding: 0.3em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid var(--pinkish);
+  border-radius: 2em;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+.button-twitter {
+  background: url("../media/twitter-logo.png");
+  background-size: cover;
+  width: 2rem;
+  height: 2rem;
+  grid-column: 2;
+  padding: 0.3em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid var(--pinkish);
+  border-radius: 2em;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+.button-fb {
+  background: url("../media/fb-logo.png");
+  background-size: contain;
+  width: 2rem;
+  height: 2rem;
+  grid-column: 2;
+  padding: 0.3em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid var(--pinkish);
+  border-radius: 2em;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+button:hover {
+  border-color: var(--yellowish);
+}

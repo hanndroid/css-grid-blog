@@ -1,0 +1,27 @@
+@import "header-and-footer.css";
+@import "post.css";
+@import "blog.css";
+@import "media-queries.css";
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 400%;
+  font-family: "Zilla Slab", serif;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 100%;
+  margin-bottom: 2rem;
+  font-family: "Zilla Slab", serif;
+}
+
+h3 {
+  align-self: start;
+}
+
+p {
+  font-family: "Zilla Slab", serif;
+}
