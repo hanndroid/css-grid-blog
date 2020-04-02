@@ -34,6 +34,15 @@ article {
   justify-self: center;
 }
 
+figcaption {
+  font-size: 35%;
+}
+
+.author-image img {
+  width: 120%;
+  justify-self: center;
+}
+
 .post-author-description {
   grid-column: 1 / 4;
   width: 50%;
